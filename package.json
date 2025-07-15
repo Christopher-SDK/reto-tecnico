@@ -1,0 +1,16 @@
+{
+  "name": "reto-tecnico",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --require ./hooks/hooks.js --require ./steps/**/*.js ./features"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.0.0",
+    "@playwright/test": "^1.54.1"
+  }
+}
